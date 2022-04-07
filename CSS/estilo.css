@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+LightGrey (211,211,211)
+DeepPink (255,20,147)
+HotPink	#FF69B4	(255,105,180)
+Yellow	#FFFF00	(255,255,0)
+Azul #A7E1F5 (167, 225, 245)
+lilas #8830A0 (136,048, 160)
+ROXO # 31144E(49,20,78, 1);
+Plum	#DDA0DD	(221,160,221)
+*/
+/*Menu*/
+header {
+    background-color: rgba(255, 20, 147, 1);
+}
+header img {
+    margin-left: 50px;
+}
+.navbar-nav {
+    margin-right: 50px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar a {
+    color: rgba(255, 255, 255, 1) !important;
+}
+.navbar a:hover {
+    color: rgba(136, 48, 160, 1) !important;
+    text-decoration: underline !important;
+}
+
+/*BANNER*/
+.banner {
+    background-image:url(../imagem/low-poly-grid-haikei.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.carousel {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.carousel-item h1 {
+    color: rgba(255, 255, 255, 1);
+}
+.carousel-indicators button {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+    background-color: rgba(255, 20, 147, 1) !important;
+}
+/*CONTAGEM REGRESSIVA*/
+.relogio {
+    width: 100%;
+    height: auto;
+    background-color: rgba(136, 48, 160, 1);
+}
+.contagem {
+    align-items: center;
+    width:100%;   
+    height:10em;   
+    background-color: rgba(136, 48, 160, 1);  
+    
+}
+table {
+    margin-left: 120px !important;
+}
+
+.numero {
+min-width: 25px;
+max-width: 100px;
+background-color:rgba(216, 191, 216, 1);
+color: rgba(49,20,78, 1);
+font-size: 30px;
+margin: 5px;
+text-align: center;
+border-radius: 5px;
+padding: 5px;
+}
+.legenda {
+    color: rgba(216, 191, 216, 1);
+    height: 25px;  
+    line-height: 10px;   
+    font-size:12px;    
+    text-align: center;   
+}
+
+/*CARDS*/
+.programacao {
+    background-color: rgba(49,20,78, 1);
+}
+.programacao img {
+    margin-top: 10px;
+}
+.card {
+    background-color: rgba(136, 48, 160, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 5%;
+    margin-top: 150px;
+}
+.card img {
+    border-radius: 5%;
+}
+.card-body .btn {
+    border: 1px solid rgba(255, 255, 255, 1);
+    margin-left: 80px;
+    color: rgba(255, 255, 255, 1);
+}
+/*PENSAMENTO*/
+.frase {
+    background-image: url(../imagem/wave-haikei.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+}
+.frase h2, h3 {
+    color: rgba(255, 255, 255, 1);
+}
+
+/*PATRIOCINADOR*/
+.patrocinador {
+    background-color: rgba(136, 48, 160, 1);
+    width: 100%;
+    height: auto;
+}
+.patrocinador img {
+    margin-left: 35px;
+}
+/*RODAPÉ*/
+footer {
+    background-color: rgba(255, 20, 147, 1);
+    height: auto;
+    width: 100%;
+    color: rgba (167, 225, 245, 1);
+}
+ footer h4 {
+     color: rgba(49,20,78, 1);
+ }
+
+ /*FAQ*/
+
+.faq {
+    background-image: url(../imagem/Injeção\ Eletrônica\ 01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+}
+.fundo-faq {
+    padding: 10px 0;
+    background-color: rgba(0,0,0,0.35);
+    height: 450px;
+}
+.faq h1 {
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 40px;
+}
+
+.faq p {
+    color: rgba(255, 255, 255, 1);
+}
+.accordion-button {
+   padding-bottom: 10px;
+}
+.faq-general {
+    background-image: url(../imagem/Injeção\ Eletrônica\ 01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+
+}
+.fundo-faq-general {
+    padding: 10px 0;
+    background-color: rgba(0,0,0,0.35);
+    height: 600px;
+}
+
+.faq-general h1 {
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 40px;
+}
+
+.accordion-item {
+    background-color: rgba(49,20,78, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+}
+.accordion button {
+    background-color: rgba(49,20,78, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+}
+.accordion button:hover {
+    background-color:rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: rgba(49,20,78, 1);
+}
+
+ /*LINEUP*/
+.line  {
+    background-image: url(../imagem/lineup6.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+.line a {
+     color: rgba(49,20,78, 1) !important;
+     text-align: center;
+     font-weight: bold;
+     font-size: 1.5em;
+ }
+.line a:hover {
+    color:  rgba(255, 20, 147, 1) !important;
+    text-decoration: underline !important;
+} 
+.line h1 {
+    color: rgba(255, 20, 147, 1);
+    text-align: center;
+}
+.line h2, 
+.line h3 {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+.line li {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    list-style-type: none;
+    font-size: 1.75em;
+}
+.scollspySite {
+    position: relative;
+    overflow: auto;
+    height: 432px;
+}
+
+ /*ABOUT US*/
+
+.about {
+    background-image: url(../imagem/audience-g8ea9b361d_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+.fundo-about {
+    padding: 10px 0;
+    background-color: rgba(0,0,0,0.35);
+    height: auto;
+}
+.about h1 {
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 40px;
+}
+
+.about p {
+    color: rgba(255, 255, 255, 1);
+}
+
+/*FOOD*/
+.food  {
+    position: relative; /* required */
+    padding-top: 70px;	/* prevent content to go underneath the fixed navbar */
+    background-color: rgba(136, 48, 160, 1);
+    height: auto;
+    width: 100%;
+}
+.food a {
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    font-size: 2em;
+}
+.food a:hover {
+   color:  rgba(255, 20, 147, 1) !important;
+   text-decoration: underline !important;
+} 
+.food h1 {
+   color: rgba(255, 20, 147, 1);
+   text-align: center;
+}
+.food h2, h3 {
+   color: rgba(255, 255, 255, 1);
+   text-align: center;
+}
+.food li {
+   color: rgba(255, 255, 255, 1);
+   text-align: center;
+   list-style-type: none;
+}
+.linha {
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+.food img {
+    margin-left: 55px;
+}
+/*CONTACT US*/
+
+.contato {
+    background-image: url(../imagem/lotte-g216de16d0_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    color:rgba(255, 255, 255, 1);
+}
+.contato h1 {
+    color: rgba(255, 20, 147, 1);
+}
+
+input[type=text], select, textarea {
+    color: rgba(49,20,78, 1);
+    background-color: rgba(216, 191, 216, 0.5); 
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(255, 20, 147, 1);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.7);
+  }
+input[type=submit] {
+    background-color:rgba(136, 48, 160, 1);
+    color: rgba(255, 20, 147, 1);
+    padding: 12px 20px;
+    border: 1px solid rgba(255, 20, 147, 1);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+input[type=submit]:hover {
+    background-color:rgba(255, 20, 147, 1);
+    color: rgba(136, 48, 160, 1);
+    border: 1px solid rgba(136, 48, 160, 1);
+}
+  
+/*MY ACCOUNT*/
+.login {
+    background-image: url(../imagem/low-poly-grid-haikei.svg);
+    width: 100%;
+    height: 1000px;
+}
+.login h1, h5 {
+    color: rgba(255, 20, 147, 1);
+}
+.registro  {
+    background-color:rgba(136, 48, 160, 1);
+    border-radius: 5%;
+}
+.photo img {
+    width: 100%;
+    height: 400px !important;
+    padding: center;
+    size: cover;
+} 
+.phone img {
+    height: 80px !important;
+    padding-right: 20px;
+}
+.registro span {
+    color: rgba(255, 255, 255, 1);
+}
+
+input[type=email], input[type=password] {
+    color: rgba(49,20,78, 1);
+    background-color: rgba(216, 191, 216, 1); 
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255, 20, 147, 1);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.card-body button {
+    background-color: rgba(216, 191, 216, 1); 
+    color: rgba(255, 20, 147, 1) !important;
+    padding: 12px 20px;
+    border: 1px solid rgba(255, 20, 147, 1) !important;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 0 !important;
+    }
+.card-body button:hover {
+    background-color:rgba(255, 20, 147, 1);
+    color: rgba(216, 191, 216, 1) !important;    
+    border: 1px solid rgba(216, 191, 216, 1) !important;       
+}
+.card-body a {
+    color: rgba(216, 191, 216, 1) !important; 
+}
+@media (min-width: 480px) {
+   
+    .carousel-caption h2 {
+        font-size: 10px;
+    }
+    .carousel-caption a {
+        font-size: 10px;
+    }
+}
+@media (min-width: 800px) {
+    table {
+        margin-left: 450px !important;
+    }
+}
